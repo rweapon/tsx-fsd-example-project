@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Inter", "sans-serif";
+}
+
+.app.dark main {
+  background-color: rgb(35, 39, 47);
+}
+
+.app.light main {
+  background-color: white;
+}
+
+.app.dark p,
+.app.dark h3,
+.app.dark h1 {
+  color: rgb(246, 247, 249);
+}
+
+.app.light p,
+.app.light h3,
+.app.light h1 {
+  color: black;
+}

@@ -1,0 +1,21 @@
+.news {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 32px;
+  padding: 24px;
+  min-height: 100vh;
+}
+
+.notFound {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 50px;
+
+  & h3 {
+    color: rgb(89, 89, 89) !important;
+  }
+}

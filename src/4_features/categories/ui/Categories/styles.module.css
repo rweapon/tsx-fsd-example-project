@@ -1,0 +1,42 @@
+.categories {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  gap: 8px;
+  box-sizing: border-box;
+  overflow-x: auto;
+  white-space: nowrap;
+  scrollbar-width: none;
+}
+
+
+.dark .item,
+.dark .active {
+  background-color: rgb(35, 39, 47);
+  color: rgb(246, 247, 249);
+}
+
+.light .item,
+.light .active {
+  background-color: white;
+  color: black;
+}
+
+.item,
+.active {
+  display: flex;
+  align-items: center;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 32px;
+  background-color: rgb(242, 244, 245);
+}
+
+.active {
+  background-color: rgb(231, 231, 255);
+  color: rgb(107, 78, 255);
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

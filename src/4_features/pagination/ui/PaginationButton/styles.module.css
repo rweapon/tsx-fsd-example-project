@@ -1,0 +1,48 @@
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 12px;
+}
+
+.pageNumber {
+  padding: 8px;
+  border: none;
+  background-color: white;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrow {
+  border: none;
+  background-color: white;
+}
+
+.dark .pageNumber,
+.dark .arrow {
+  background-color: rgb(35, 39, 47);
+  color: rgb(246, 247, 249);
+}
+
+.light .pageNumber,
+.light .arrow {
+  background-color: white;
+  color: black;
+}
+
+button {
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.8;
+    transition-duration: 0.2s;
+  }
+  &:disabled {
+    cursor: default;
+  }
+}
